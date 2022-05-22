@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "rCore代码走读/ch3 多道程序和分时任务.md",
-            "mode": "source"
+            "file": "README.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rCore代码走读/ch3 多道程序和分时任务.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "d89668c1dc3d8473",
   "lastOpenFiles": [
+    "README.md",
     "rCore代码走读/ch3 多道程序和分时任务.md",
     "image/Pasted image 20220521204946.png",
     "rCore代码走读/ch2 批处理操作系统.md",
