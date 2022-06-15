@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347
+    "width": 250
   },
   "right": {
     "id": "a758e5380f6d6a13",
@@ -89,12 +89,14 @@
   "active": "d89668c1dc3d8473",
   "lastOpenFiles": [
     "README.md",
+    "rCore代码走读/ch4 地址空间.md",
     "rCore代码走读/ch3 多道程序和分时任务.md",
-    "image/Pasted image 20220521204946.png",
-    "rCore代码走读/ch2 批处理操作系统.md",
-    "dayList/2022-05-21.md",
-    "rCore代码走读/ch1 独立执行单元.md",
-    "rCore代码走读/ch4.md",
-    "未命名 1.md"
+    "image/Pasted image 20220614185018.png",
+    "image/Pasted image 20220613185405.png",
+    "image/Pasted image 20220612140543.png",
+    "image/Pasted image 20220612134825.png",
+    "image/Pasted image 20220612132956.png",
+    "image/Pasted image 20220612130430.png",
+    "image/Pasted image 20220521204946.png"
   ]
 }
