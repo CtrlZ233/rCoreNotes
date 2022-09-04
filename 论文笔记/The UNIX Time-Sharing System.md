@@ -79,5 +79,4 @@ by not charging any fees at all.
 - execute：All the code and data in the process invoking execute is replaced from the file, but open files, current directory, and inter-process relationships are unaltered.
 - wait：causes its caller to suspend execution until one of its children has completed execution
 - exit：terminates a process, destroys its image, closes its open files, and generally obliterates it
-## Shell
 

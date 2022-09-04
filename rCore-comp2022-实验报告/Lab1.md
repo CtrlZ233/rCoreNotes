@@ -7,6 +7,7 @@ syscall_times为一个长度为500的数组，用于统计各个系统调用的�
 即是否是第一次被调度，如果是第一次被调度，需要对该变量赋值。  
   
 对于syscall_times，在进入trap_handler时，判断出是系统调用，在真正处理系统调用之前对其进行计数。  
+Q： `lazy_static`  将TaskManager分配到BSS上，当TaskManager过大时导致卡死。
 
 ### 实验截图
   ![[Pasted image 20220818082503.png]]
