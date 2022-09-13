@@ -38,12 +38,21 @@ macro-benchmark: 用来测量一个计算机系统总体性能的基准程序。
 #### 2.3.1.1 Usage Model
 `LegoOS` 对用户暴露了一群虚拟节点 `vＮode` ，在用户看来，一个 `vＮode` 就是一个虚拟机，多个用户可以在同一个 `vNode` 上操作，也可以在一个 `vNode` 上运行多个任务，同时，一个 `vNode` 可以运行在多个组件上，一个组件上可以同时有多个 `vNode` ，这些执行状态对用户都是透明的。
 
-由于 `SplitKernel` 的设计原则中包含不提供跨组件的一致性保证，因此 `LegoOS` 不支持跨进程的可写共享内存，`LegoOS` 假设只在同一进程下的线程中共享内存（$4.3.1），而应用程序使用跨进程的可写共享内存需要通过消息通信来保证一致性。
+由于 `SplitKernel` 的设计原则中包含不提供跨组件的一致性保证，因此 `LegoOS` 不支持跨进程的可写共享内存，`LegoOS` 假设只在同一进程下的线程中共享内存，而应用程序使用跨进程的可写共享内存需要通过消息通信来保证一致性。
 
 最后，`LegoOS` 将支持Linux的基本系统调用和ABI，可以运行在Linux上的分布式应用程序同样可以运行在 `LegoOS` 上。
 
 #### 2.3.1.2 Hardware Architecture
-`LegoOS` 将
+`LegoOS` 主要将硬件组件分为3类：处理器，内存、和存储，分别对应三种 `component` : `pComponent`（CPU）、`mComponent`（DRAＭ）、`sComponent`（SSD or ＨDD）。
+
+![[Pasted image 20220913202511.png]]
+
+- 分离处理器和内存功能：`LegoOS` 将所有的硬件内存功能都放到 `mComponent` （如页表，TLB），只在 `pCompenent` 中留下了一部分缓存内存（用于提速），所有的内存操作对 `pComponent` 是透明的。
+- 处理器虚拟缓存：这里由于引入了 `Vritual Cache` , 会导致 `homonym problem`，通过 `ASID` 解决。
+- 扩展缓存：利用局部性原理，在 `pComponent` 中保留一部分内存 `ExCache` 来提高性能。这里的 `Cache` 位于 LLC和跨组件内存之间的层级结构。每个扩展缓存行由一个指示虚拟地址的 `tag` 和两个访问权限位控制，这些由OS来进行设置，而设置一个硬件缓存控制器负责通过虚拟地址来fetch对应的缓存行，如果fetch失败，再转由OS处理。（不是很懂，如何区分不同进程的虚拟地址？）
+- 在 `pComponent` 中还保留了 `LegoOS` 内核所用到的内存数据本身，确保可以直接通过物理地址访问内核数据。
+
+#### 进程管理
 
 
 
