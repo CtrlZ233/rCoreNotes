@@ -25,7 +25,7 @@
 
 - 全局的资源管理和错误处理：除了 `monitor` 管理自己的硬件资源外，SplitKernel还需要一个全局的资源管理，和错误处理来避免某个硬件组件挂掉导致的所有涉及到的任务失败。为了减小性能消耗，全局管理只是偶尔的和粗粒度的。
 
-![[../image/Pasted image 20220913165844.png]]
+![[image/Pasted image 20220913165844.png]]
 
 ## 2.3 LegoOS
 `LegoOS` 是论文作者实现的一个 `SplitKernel` 架构的分布式操作系统。
@@ -40,7 +40,7 @@
 ### 2.3.2 Hardware Architecture
 `LegoOS` 主要将硬件组件分为3类：处理器，内存、和存储，分别对应三种 `component` : `pComponent`（CPU）、`mComponent`（DRAＭ）、`sComponent`（SSD or ＨDD）。
 
-![[../image/Pasted image 20220913202511.png]]
+![[image/Pasted image 20220913202511.png]]
 
 - 分离处理器和内存功能：`LegoOS` 将所有的硬件内存功能都放到 `mComponent` （如页表，TLB），只在 `pCompenent` 中留下了一部分缓存内存（用于提速），所有的内存操作对 `pComponent` 是透明的。
 - 处理器虚拟缓存：这里由于引入了 `Vritual Cache` , 会导致 `homonym problem`，通过 `ASID` 解决。
@@ -56,7 +56,7 @@
 
 ### 2.3.4 内存管理
 
-![[../image/Pasted image 20220914085855.png]]
+![[image/Pasted image 20220914085855.png]]
 
 所有mComponent的内存单元组成一个虚拟地址空间。一个应用程序可以申请多个mComponent的内存空间，其中有且仅有一个mComponent称为该应用程序的`home mComponent`，作为该程序的内存优先分配。当一个新进程出现时，`LegoOS`使用全局内存管理(`GMM`)指定该进程的`home mComponent`。
 
