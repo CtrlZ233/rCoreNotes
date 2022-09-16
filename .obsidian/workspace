@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "d519a11792a403b2",
+    "id": "6d5b52ffecdd9ed5",
     "type": "split",
     "children": [
       {
-        "id": "338db5247c9fb3ab",
+        "id": "869b3092f22c1380",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e975f12f1d2f039e",
+    "id": "15243d04dd357e47",
     "type": "split",
     "children": [
       {
-        "id": "d9f5e08dd81a3ff8",
+        "id": "5945ed35632064fd",
         "type": "tabs",
         "children": [
           {
-            "id": "c19515f296b07b34",
+            "id": "0b42622402d20fe0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "9c0b936585ead501",
+            "id": "441b0609dbc6709a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -48,29 +48,37 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "90136a7ccb8f9ac9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 389.5
   },
   "right": {
-    "id": "a758e5380f6d6a13",
+    "id": "0f2a5bc07ca1556d",
     "type": "split",
     "children": [
       {
-        "id": "a9a256d579a33356",
+        "id": "db584f3487e1d40e",
         "type": "tabs",
         "children": [
           {
-            "id": "2051c4b4c3f4b3a3",
+            "id": "fd80052a44d07456",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
                 "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -79,24 +87,116 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "dc965c3a1c31ec5a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "14b7f7f9e19f24cb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7e6c4d9dbf08e661",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "54d6fc8d898d5bff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6dc7f6958e17f963",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 79,
+                  "scale": 1.2649632303707645,
+                  "close": false
+                }
+              }
+            }
+          },
+          {
+            "id": "c9b0c68e5c4265f1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "3eb6a7aae992a18e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 328.73809814453125
   },
-  "active": "338db5247c9fb3ab",
+  "active": "869b3092f22c1380",
   "lastOpenFiles": [
     "论文笔记/The UNIX Time-Sharing System.md",
-    "Pasted image 20220913165844.png.md",
+    "image/Pasted-image-20220913202511.png",
+    "image/Pasted image 20220905011143.png",
+    "image/Pasted-image-20220914085855.png",
     "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
-    "README.md",
-    "rCore代码走读/ch4 地址空间.md",
-    "rCore代码走读/ch3 多道程序和分时任务.md",
-    "image/Pasted image 20220614185018.png",
-    "image/Pasted image 20220613185405.png",
-    "image/Pasted image 20220612140543.png",
-    "image/Pasted image 20220612134825.png"
+    "image/Pasted-image-20220913165844.png",
+    "image/Pasted image 20220612134825.png",
+    "image/Pasted.md",
+    "dayList/2022-05-21.md",
+    "rCoreNotes/dayList/2022-09-12.md"
   ]
 }

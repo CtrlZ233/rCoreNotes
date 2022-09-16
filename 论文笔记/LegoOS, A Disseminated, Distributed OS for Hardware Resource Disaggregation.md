@@ -25,7 +25,7 @@
 
 - 全局的资源管理和错误处理：除了 `monitor` 管理自己的硬件资源外，SplitKernel还需要一个全局的资源管理，和错误处理来避免某个硬件组件挂掉导致的所有涉及到的任务失败。为了减小性能消耗，全局管理只是偶尔的和粗粒度的。
 
-![[image/Pasted image 20220913165844.png]]
+![](../image/Pasted-image-20220913165844.png)
 
 ## 2.3 LegoOS
 `LegoOS` 是论文作者实现的一个 `SplitKernel` 架构的分布式操作系统。
@@ -39,8 +39,7 @@
 
 ### 2.3.2 Hardware Architecture
 `LegoOS` 主要将硬件组件分为3类：处理器，内存、和存储，分别对应三种 `component` : `pComponent`（CPU）、`mComponent`（DRAＭ）、`sComponent`（SSD or ＨDD）。
-
-![[image/Pasted image 20220913202511.png]]
+![](../image/Pasted-image-20220913202511.png)
 
 - 分离处理器和内存功能：`LegoOS` 将所有的硬件内存功能都放到 `mComponent` （如页表，TLB），只在 `pCompenent` 中留下了一部分缓存内存（用于提速），所有的内存操作对 `pComponent` 是透明的。
 - 处理器虚拟缓存：这里由于引入了 `Vritual Cache` , 会导致 `homonym problem`，通过 `ASID` 解决。
@@ -55,8 +54,7 @@
 同时，为了兼容Linux中有状态的系统调用（如open file等）， `LegoOS` 在 `process monitor` 上新增一层用于存储和转换这些状态。
 
 ### 2.3.4 内存管理
-
-![[image/Pasted image 20220914085855.png]]
+![](../image/Pasted-image-20220914085855.png)
 
 所有mComponent的内存单元组成一个虚拟地址空间。一个应用程序可以申请多个mComponent的内存空间，其中有且仅有一个mComponent称为该应用程序的`home mComponent`，作为该程序的内存优先分配。当一个新进程出现时，`LegoOS`使用全局内存管理(`GMM`)指定该进程的`home mComponent`。
 
@@ -101,3 +99,4 @@ LegoOS 在 sComponent 中实现了核心的存储能力，它通过 vNode 的抽
 2. 没有实现进程的跨 `pComponent` ，使得CPU的利用率还不够，是由于操作系统没有提供跨组件的缓存一致性，如果不同的 `pComponent` 里的Cahce不一致，会产生很多问题。
 3. 没有跨组件的一致性保证，那为什么在 `mComponent` 上设置 `Storage Buffer Cache` 能够正常工作，不会有一致性冲突吗？
 4. ExCache的一致性如何保证？写回传保证缓存和主存间的一致性，而作者在论文中说了，不支持可写的跨进程的共享内存，而且论文中一个进程不会跨 pComponent，所以主存只会有一份Cache在远端，不存在远端之间的一致性问题。
+5. 进程内的虚拟地址是如何转换的，还不太理解？

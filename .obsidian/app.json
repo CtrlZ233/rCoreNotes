@@ -1,5 +1,6 @@
 {
+  "readableLineLength": false,
+  "strictLineBreaks": true,
   "promptDelete": false,
-  "communityThemeSortOrder": "release",
-  "readableLineLength": true
+  "alwaysUpdateLinks": true
 }
