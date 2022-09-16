@@ -27,7 +27,9 @@ poll 方法返回的是一个枚举类型 `Poll`，它和返回布尔值是类�
 
 ## Executor
 在异步模型中，异步任务被保存在一个全局队列中，首先用户通过`Executor` 的接口把异步任务 push 到全局队列里去，然后工作线程会拿到 task 执行，并且创建一个 `Waker`，传给执行的 `Future`，如果任务执行完成了，那就 ok 了；如果没执行完成，`Future` 负责把 `Waker` 注册到 `Reactor` 上面，`Reactor` 负责监听事件，收到事件后会把 `Waker` 唤醒，把 task 放到全局队列中，这样下次其他线程可以拿到这个 task 继续执行，这样循环重复直到任务执行完毕。
-![[Pasted image 20220905003403.png]]
+
+![](../../image/Pasted-image-20220905003403.png)
+
 
 ## Waker
 `Waker` 在这个过程中充当着十分重要的角色：

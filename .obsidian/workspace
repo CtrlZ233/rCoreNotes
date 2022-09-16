@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
+            "file": "rCore-Tutorial代码走读/rCore-Tutorial代码笔记.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
+                "file": "rCore-Tutorial代码走读/rCore-Tutorial代码笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
+                "file": "rCore-Tutorial代码走读/rCore-Tutorial代码笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
+                "file": "rCore-Tutorial代码走读/rCore-Tutorial代码笔记.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md"
+                "file": "rCore-Tutorial代码走读/rCore-Tutorial代码笔记.md"
               }
             }
           }
@@ -188,15 +188,15 @@
   },
   "active": "869b3092f22c1380",
   "lastOpenFiles": [
-    "论文笔记/The UNIX Time-Sharing System.md",
-    "image/Pasted-image-20220913202511.png",
-    "image/Pasted image 20220905011143.png",
-    "image/Pasted-image-20220914085855.png",
-    "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
-    "image/Pasted-image-20220913165844.png",
-    "image/Pasted image 20220612134825.png",
-    "image/Pasted.md",
-    "dayList/2022-05-21.md",
-    "rCoreNotes/dayList/2022-09-12.md"
+    "Rust/Rust异步/Rust异步.md",
+    "rCore-Tutorial代码走读/rCore-Tutorial代码笔记.md",
+    "rCore-Tutorial代码走读/ch1 独立执行单元.md",
+    "rCore-Tutorial代码走读/ch8 并发.md",
+    "rCore-Tutorial代码走读/ch7 进程间通信和IO重定向.md",
+    "rCore-Tutorial代码走读/ch6 文件系统.md",
+    "rCore-Tutorial代码走读/ch5 进程.md",
+    "rCore-Tutorial代码走读/ch4 地址空间.md",
+    "rCore-Tutorial代码走读/ch3 多道程序和分时任务.md",
+    "rCore-Tutorial代码走读/ch2 批处理操作系统.md"
   ]
 }
