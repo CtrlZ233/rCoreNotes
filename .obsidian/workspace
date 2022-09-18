@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "rCore-Tutorial代码走读/rCore-Tutorial代码笔记.md",
+            "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rCore-Tutorial代码走读/rCore-Tutorial代码笔记.md",
+                "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rCore-Tutorial代码走读/rCore-Tutorial代码笔记.md",
+                "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "rCore-Tutorial代码走读/rCore-Tutorial代码笔记.md",
+                "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rCore-Tutorial代码走读/rCore-Tutorial代码笔记.md"
+                "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md"
               }
             }
           }
@@ -188,8 +188,8 @@
   },
   "active": "869b3092f22c1380",
   "lastOpenFiles": [
-    "Rust/Rust异步/Rust异步.md",
     "rCore-Tutorial代码走读/rCore-Tutorial代码笔记.md",
+    "Rust/Rust异步/Rust异步.md",
     "rCore-Tutorial代码走读/ch1 独立执行单元.md",
     "rCore-Tutorial代码走读/ch8 并发.md",
     "rCore-Tutorial代码走读/ch7 进程间通信和IO重定向.md",
