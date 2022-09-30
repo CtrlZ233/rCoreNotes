@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
+            "file": "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
+                "file": "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
+                "file": "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
+                "file": "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md"
+                "file": "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md"
               }
             }
           }
@@ -188,15 +188,15 @@
   },
   "active": "869b3092f22c1380",
   "lastOpenFiles": [
-    "rCore-Tutorial代码走读/rCore-Tutorial代码笔记.md",
-    "Rust/Rust异步/Rust异步.md",
-    "rCore-Tutorial代码走读/ch1 独立执行单元.md",
-    "rCore-Tutorial代码走读/ch8 并发.md",
+    "论文笔记/NrOS, Effective Replication and Sharing in an Operating System.md",
+    "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
+    "dayList/2022-09-12.md",
+    "rCore-comp2022-实验报告/Lab1.md",
     "rCore-Tutorial代码走读/ch7 进程间通信和IO重定向.md",
-    "rCore-Tutorial代码走读/ch6 文件系统.md",
-    "rCore-Tutorial代码走读/ch5 进程.md",
-    "rCore-Tutorial代码走读/ch4 地址空间.md",
     "rCore-Tutorial代码走读/ch3 多道程序和分时任务.md",
-    "rCore-Tutorial代码走读/ch2 批处理操作系统.md"
+    "rCore-Tutorial代码走读/ch2 批处理操作系统.md",
+    "Rust/Rust异步/Rust异步.md",
+    "rCore-Tutorial代码走读/rCore-Tutorial代码笔记.md",
+    "rCore-Tutorial代码走读/ch1 独立执行单元.md"
   ]
 }
