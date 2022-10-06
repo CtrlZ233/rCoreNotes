@@ -188,15 +188,15 @@
   },
   "active": "869b3092f22c1380",
   "lastOpenFiles": [
-    "论文笔记/NrOS, Effective Replication and Sharing in an Operating System.md",
     "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
+    "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md",
+    "image/Pasted-image-20221006150042.png",
+    "image/Pasted-image-20221003144204.png",
+    "论文笔记/NrOS, Effective Replication and Sharing in an Operating System.md",
     "dayList/2022-09-12.md",
     "rCore-comp2022-实验报告/Lab1.md",
     "rCore-Tutorial代码走读/ch7 进程间通信和IO重定向.md",
     "rCore-Tutorial代码走读/ch3 多道程序和分时任务.md",
-    "rCore-Tutorial代码走读/ch2 批处理操作系统.md",
-    "Rust/Rust异步/Rust异步.md",
-    "rCore-Tutorial代码走读/rCore-Tutorial代码笔记.md",
-    "rCore-Tutorial代码走读/ch1 独立执行单元.md"
+    "rCore-Tutorial代码走读/ch2 批处理操作系统.md"
   ]
 }
