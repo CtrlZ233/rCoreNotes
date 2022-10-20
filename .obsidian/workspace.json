@@ -4,16 +4,57 @@
     "type": "split",
     "children": [
       {
-        "id": "869b3092f22c1380",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "manjaro/manjaro kde 配置.md",
-            "mode": "source",
-            "source": false
+        "id": "18f5039bf6ff478a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "869b3092f22c1380",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "manjaro/manjaro kde 配置.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dba3ea315cade36e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "manjaro/manjaro kde 配置.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24debe8a0d58ea4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "论文笔记/On micro-kernel Construction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "95acacada166bde3",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "image/Pasted-image-20221020101914.png"
+              }
+            }
           }
-        }
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -31,7 +72,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -77,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "manjaro/manjaro kde 配置.md",
+                "file": "论文笔记/On micro-kernel Construction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "manjaro/manjaro kde 配置.md",
+                "file": "论文笔记/On micro-kernel Construction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +175,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "manjaro/manjaro kde 配置.md",
+                "file": "论文笔记/On micro-kernel Construction.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -175,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "manjaro/manjaro kde 配置.md"
+                "file": "论文笔记/On micro-kernel Construction.md"
               }
             }
           }
@@ -186,17 +229,20 @@
     "direction": "horizontal",
     "width": 328.73809814453125
   },
-  "active": "869b3092f22c1380",
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "24debe8a0d58ea4e",
   "lastOpenFiles": [
     "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md",
+    "论文笔记/NrOS, Effective Replication and Sharing in an Operating System.md",
+    "image/Pasted-image-20221020101914.png",
+    "论文笔记/On micro-kernel Construction.md",
+    "rCore-N/用户态中断适配点.md",
+    "manjaro/manjaro kde 配置.md",
     "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
     "image/Pasted-image-20221006150042.png",
     "image/Pasted-image-20221003144204.png",
-    "论文笔记/NrOS, Effective Replication and Sharing in an Operating System.md",
-    "dayList/2022-09-12.md",
-    "rCore-comp2022-实验报告/Lab1.md",
-    "rCore-Tutorial代码走读/ch7 进程间通信和IO重定向.md",
-    "rCore-Tutorial代码走读/ch3 多道程序和分时任务.md",
-    "rCore-Tutorial代码走读/ch2 批处理操作系统.md"
+    "dayList/2022-09-12.md"
   ]
 }
