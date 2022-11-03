@@ -2,6 +2,11 @@
 
 # 第一代微内核——以Mach为代表
 
+参考资料：
+- [GNU Mach 手册](https://www.gnu.org/software/hurd/microkernel/mach/external_pager_mechanism.html)
+- [The Duality of Memory and Communication in the Implementation of a Multiprocessor Operating System](https://dl.acm.org/doi/10.1145/41457.37507)
+- [不知名问答](http://os.inf.tu-dresden.de/pipermail/l4-hackers/2015/016114.html)
+
 ## Externel Pager
 - 在内核中管理物理和虚拟内存。
 - 在内核外处理页错误。
