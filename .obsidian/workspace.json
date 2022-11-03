@@ -20,53 +20,19 @@
             }
           },
           {
-            "id": "dba3ea315cade36e",
+            "id": "95e8a52ecf8a7f1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "manjaro/manjaro kde 配置.md",
+                "file": "论文笔记/Toward Real Microkernels.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "24debe8a0d58ea4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "论文笔记/On micro-kernel Construction.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1546a825f470cd12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rCore-N/用户态定时器实验报告.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "95acacada166bde3",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "image/Pasted-image-20221020101914.png"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rCore-N/用户态定时器实验报告.md",
+                "file": "论文笔记/Toward Real Microkernels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rCore-N/用户态定时器实验报告.md",
+                "file": "论文笔记/Toward Real Microkernels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "rCore-N/用户态定时器实验报告.md",
+                "file": "论文笔记/Toward Real Microkernels.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -230,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rCore-N/用户态定时器实验报告.md"
+                "file": "论文笔记/Toward Real Microkernels.md"
               }
             }
           }
@@ -241,20 +207,17 @@
     "direction": "horizontal",
     "width": 328.73809814453125
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "1546a825f470cd12",
+  "active": "95e8a52ecf8a7f1a",
   "lastOpenFiles": [
-    "论文笔记/On micro-kernel Construction.md",
+    "image/Pasted-image-20221103154625.png",
+    "image/Pasted-image-20221103125242.png",
+    "论文笔记/Toward Real Microkernels.md",
+    "论文笔记/The UNIX Time-Sharing System.md",
     "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md",
+    "论文笔记/On micro-kernel Construction.md",
     "论文笔记/NrOS, Effective Replication and Sharing in an Operating System.md",
     "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
-    "论文笔记/The UNIX Time-Sharing System.md",
-    "image/Pasted-image-20221020101914.png",
-    "rCore-N/用户态中断适配点.md",
     "manjaro/manjaro kde 配置.md",
-    "image/Pasted-image-20221006150042.png",
-    "image/Pasted-image-20221003144204.png"
+    "rCore-N/用户态定时器实验报告.md"
   ]
 }

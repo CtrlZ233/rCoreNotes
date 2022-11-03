@@ -7,8 +7,8 @@
 
 # 2 如何解决
 ## 2.1 几个假设
+ With main memory bus facing a bandwidth wall, future network bandwidth (at line rate) is even projected to exceed local DRAM bandwidth.
 要解决以上几个问题，只有将整机完全打碎，分散成各个不同类型的设备进行管理。论文作者设想了一种硬件资源分解体系结构：传统服务器中的硬件资源通过网络进行连接而不是系统总线，每个硬件组件都有一个控制器和一个网络接口，可以独立的管理自己的资源，并且故障隔离。
-
 上面设想的实现基于以下几个发展趋势和假设：
 - 网络带宽和系统总线带宽基本持平甚至超越。
 - 网络接口更加靠近硬件组件，这样硬件设备将可以直接访问网络而无需任何附加处理器。
