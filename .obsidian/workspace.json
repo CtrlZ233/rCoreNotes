@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文笔记/Toward Real Microkernels.md",
+                "file": "论文笔记/The Performance of μ-Kernel-Based Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文笔记/Toward Real Microkernels.md",
+                "file": "论文笔记/The Performance of μ-Kernel-Based Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "论文笔记/Toward Real Microkernels.md",
+                "file": "论文笔记/The Performance of μ-Kernel-Based Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "论文笔记/Toward Real Microkernels.md",
+                "file": "论文笔记/The Performance of μ-Kernel-Based Systems.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文笔记/Toward Real Microkernels.md"
+                "file": "论文笔记/The Performance of μ-Kernel-Based Systems.md"
               }
             }
           }
@@ -209,15 +209,15 @@
   },
   "active": "95e8a52ecf8a7f1a",
   "lastOpenFiles": [
+    "image/Pasted-image-20221115111340.png",
+    "image/Pasted-image-20221115105503.png",
+    "image/Pasted-image-20221115105434.png",
+    "论文笔记/The Performance of μ-Kernel-Based Systems.md",
+    "论文笔记/Toward Real Microkernels.md",
     "image/Pasted-image-20221103154625.png",
     "image/Pasted-image-20221103125242.png",
-    "论文笔记/Toward Real Microkernels.md",
     "论文笔记/The UNIX Time-Sharing System.md",
     "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md",
-    "论文笔记/On micro-kernel Construction.md",
-    "论文笔记/NrOS, Effective Replication and Sharing in an Operating System.md",
-    "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
-    "manjaro/manjaro kde 配置.md",
-    "rCore-N/用户态定时器实验报告.md"
+    "论文笔记/On micro-kernel Construction.md"
   ]
 }

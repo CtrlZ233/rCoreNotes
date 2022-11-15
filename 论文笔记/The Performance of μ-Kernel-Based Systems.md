@@ -16,7 +16,9 @@ L4 Linux Server和用户程序进行内存拷贝的时候，需要使用Server�
 #### 中断处理与设备驱动
 L4 使用同步的IPC通知消息来将中断发送到Server线程。Linux对中断进行了分类：top-half和bottom-half。对于top-half而言，对每个interrupt handler各自用一个Server线程来处理（要求快速响应），而对于bottom-half而言，所有的top-half使用同一个Server线程来处理。为了模拟中断抢占CPU的现象，这些线程在L4内核的优先级设置如下：
 
-top-half > bottom-half > normal Linux Server > Application
+top-half > bottom-half > normal Linux Server = Application
+
+![](../image/Pasted-image-20221115111340.png)
 
 #### Linux User Processes
 Linux User Process都是用L4的 Task实现的，当然，在Linux Server中存有PCB相关信息。这些Task的Pager被设置为Linux Server。
@@ -30,7 +32,31 @@ Linux Server中有一段仿真代码用于模拟Linux系统调用，在原生Lin
 
 
 #### 信号
-在原生Linux内核中，内核通过直接修改用户程序的stack pointer和instruction pointer。而在L4中，处于安全考虑，只允许同一个进程内的不同线程之间来进行相互操作。
+在原生Linux内核中，信号会在从内核态返回用户态之前被送到用户进程。而在L4中，由于在逻辑上Linux Server和用户进程可以并行，也就是说，我们无法像传统Linux内核那样用内核直接抢占和阻塞用户线程。因为L4处于安全考虑，不允许不同地址空间的进程（Linux Server和用户进程）相互修改操作。
+
+因此，在L4 Linux中，每个用户进程中有一个Signal thread，当Linux Server向一个用户进程传递信号时，会通过IPC消息发送给Signal thread，由Signal Thread来修改阻塞当前的用户主线程，转去处理信号。
+
+这里有一部分仿真代码和系统调用的仿真代码类似，Signal Thread的会修改主线程的sp和ip寄存器，转去执行Signal 仿真代码。在仿真代码中，会根据信号类型选择自己处理还是进入Linux Server处理。
+
+![](../image/Pasted-image-20221115105434.png)
+
+#### 调度
+
+在L4 Linux中，有两个调度器，一个是L4的，采用固定优先级 + Robin，调度所有的L4 Thread。一个是L4 Linux Server，调度所有的L4 Linux User Processes。设计的目标是让L4 Linux User Processes看起来像是L4 Linux Server在调度。
+
+L4 Linux Server和Linux User Process都是运行在L4 用户空间的普通进程，它们的关系从优先级上讲，是平等的，但是原生的Linux Kernel和User Process是上下级关系。它们的运行关系是非此即彼。
+
+对于单处理机而言，Linux Server和User Process只能运行一个。为了模拟User Process由Linux Server调度，必须要使User Process能够被Linux Server阻塞抢占。
+
+ 当Server睡眠，User Process运行的时候，分以下几种情况：
+- 发生page fault 或 exception（系统调用或信号），会自动阻塞然后切换到Server执行。
+- 当发生中断时，因为处理中断的线程在Server中，且在L4的优先级很高，会被切换到Server执行（个人理解）。
+- User Process平稳执行，也不进行系统调用或者page fault之类的。为了不让User Process一直占用CPU使得Linux Server 饿死，在L4 Linux中使用L4提供的non-periodic mode，通过给每个User Process一定的time amount，如果这个time amount使用完，就会产生一个timeout fault，而fault的handler指定为Linux Server，实现时间片分配。
+
+
+
+# 个人理解
+
 
 
 
