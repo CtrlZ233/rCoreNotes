@@ -51,14 +51,13 @@ L4 Linux Server和Linux User Process都是运行在L4 用户空间的普通进�
  当Server睡眠，User Process运行的时候，分以下几种情况：
 - 发生page fault 或 exception（系统调用或信号），会自动阻塞然后切换到Server执行。
 - 当发生中断时，因为处理中断的线程在Server中，且在L4的优先级很高，会被切换到Server执行（个人理解）。
-- User Process平稳执行，也不进行系统调用或者page fault之类的。为了不让User Process一直占用CPU使得Linux Server 饿死，在L4 Linux中使用L4提供的non-periodic mode，通过给每个User Process一定的time amount，如果这个time amount使用完，就会产生一个timeout fault，而fault的handler指定为Linux Server，实现时间片分配。
-
-
+- User Process平稳执行，也不进行系统调用或者page fault之类的。为了不让User Process一直占用CPU使得Linux Server和其他User Process饿死，在L4 Linux中使用L4提供的non-periodic mode，通过给每个User Process一定的time amount，如果这个time amount使用完，就会产生一个timeout fault，而fault的handler指定为Linux Server，实现时间片分配。
 
 # 个人理解
 
 
-
+1. 这篇论文主要是证明了微内核实现的系统性能并不逊色于宏内核。因此在设计Linux Server的时候尽量保持原生Linux的基本结构，并不一定是最佳实践方案。
+2. 在微内核上构建宏内核服务器，除了证明微内核的性能之外，还有什么实践意义？（多个宏内核服务器共存）。
 
 
 

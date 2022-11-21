@@ -74,3 +74,30 @@ sudo ln -s /var/lib/snapd/snap /snap
 sudo snap install clion --classic
 ```
 
+# 建立回收站
+```shell
+mkdir ~/.trash
+```
+配置 `bashrc`或者`zshrc`
+```shell
+alias rm=trash
+alias r=trash
+alias rl='ls ~/.trash/'
+alias ur=recoverfile
+
+recoverfile()
+{
+    mv -i ~/.trash/$@ ./
+}
+
+trash()
+{
+    mv $@ ~/.trash
+}
+```
+
+更新配置文件：
+```shell
+source ~/.zshrc
+```
+

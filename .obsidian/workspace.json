@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "25b489578e70bf07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "manjaro/manjaro kde 配置.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文笔记/The Performance of μ-Kernel-Based Systems.md",
+                "file": "manjaro/manjaro kde 配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "论文笔记/The Performance of μ-Kernel-Based Systems.md",
+                "file": "manjaro/manjaro kde 配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +165,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "论文笔记/The Performance of μ-Kernel-Based Systems.md",
+                "file": "manjaro/manjaro kde 配置.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -196,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文笔记/The Performance of μ-Kernel-Based Systems.md"
+                "file": "manjaro/manjaro kde 配置.md"
               }
             }
           }
@@ -207,17 +219,17 @@
     "direction": "horizontal",
     "width": 328.73809814453125
   },
-  "active": "95e8a52ecf8a7f1a",
+  "active": "25b489578e70bf07",
   "lastOpenFiles": [
-    "image/Pasted-image-20221115111340.png",
-    "image/Pasted-image-20221115105503.png",
-    "image/Pasted-image-20221115105434.png",
-    "论文笔记/The Performance of μ-Kernel-Based Systems.md",
+    "RISC-V/RISC-V特点.md",
+    "rCore-comp2022-实验报告/Lab5.md",
+    "rCore-comp2022-实验报告/Lab3.md",
+    "rCore-comp2022-实验报告/Lab2.md",
     "论文笔记/Toward Real Microkernels.md",
-    "image/Pasted-image-20221103154625.png",
-    "image/Pasted-image-20221103125242.png",
     "论文笔记/The UNIX Time-Sharing System.md",
+    "论文笔记/The Performance of μ-Kernel-Based Systems.md",
     "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md",
-    "论文笔记/On micro-kernel Construction.md"
+    "论文笔记/On micro-kernel Construction.md",
+    "论文笔记/NrOS, Effective Replication and Sharing in an Operating System.md"
   ]
 }
