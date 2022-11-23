@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "manjaro/manjaro kde 配置.md",
+                "file": "论文笔记/Toward Real Microkernels.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "manjaro/manjaro kde 配置.md",
+                "file": "论文笔记/Toward Real Microkernels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "manjaro/manjaro kde 配置.md",
+                "file": "论文笔记/Toward Real Microkernels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,8 +152,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "54d6fc8d898d5bff",
@@ -165,7 +164,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "manjaro/manjaro kde 配置.md",
+                "file": "论文笔记/Toward Real Microkernels.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -208,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "manjaro/manjaro kde 配置.md"
+                "file": "论文笔记/Toward Real Microkernels.md"
               }
             }
           }
@@ -221,15 +220,15 @@
   },
   "active": "25b489578e70bf07",
   "lastOpenFiles": [
-    "RISC-V/RISC-V特点.md",
-    "rCore-comp2022-实验报告/Lab5.md",
-    "rCore-comp2022-实验报告/Lab3.md",
-    "rCore-comp2022-实验报告/Lab2.md",
-    "论文笔记/Toward Real Microkernels.md",
-    "论文笔记/The UNIX Time-Sharing System.md",
-    "论文笔记/The Performance of μ-Kernel-Based Systems.md",
-    "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md",
+    "rCore-Tutorial代码走读/ch6 文件系统.md",
+    "rCore-Tutorial代码走读/ch7 进程间通信和IO重定向.md",
+    "rCore-Tutorial代码走读/ch8 并发.md",
+    "README.md",
+    "Question.md",
+    "论文笔记/NrOS, Effective Replication and Sharing in an Operating System.md",
     "论文笔记/On micro-kernel Construction.md",
-    "论文笔记/NrOS, Effective Replication and Sharing in an Operating System.md"
+    "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md",
+    "论文笔记/The Performance of μ-Kernel-Based Systems.md",
+    "manjaro/manjaro kde 配置.md"
   ]
 }
