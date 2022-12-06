@@ -13,20 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "seL4/seL4 Tutorial/Capabilities.md",
+                "file": "seL4/seL4 Tutorial/2. Untyped.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d331f3d431189db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "seL4/seL4学习笔记——序.md",
-                "mode": "preview",
                 "source": false
               }
             }
@@ -109,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "seL4/seL4 Tutorial/Capabilities.md",
+                "file": "seL4/seL4 Tutorial/2. Untyped.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "seL4/seL4 Tutorial/Capabilities.md",
+                "file": "seL4/seL4 Tutorial/2. Untyped.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "seL4/seL4 Tutorial/Capabilities.md",
+                "file": "seL4/seL4 Tutorial/2. Untyped.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "seL4/seL4 Tutorial/Capabilities.md"
+                "file": "seL4/seL4 Tutorial/2. Untyped.md"
               }
             }
           }
@@ -220,15 +208,15 @@
   },
   "active": "22374672b6ddf576",
   "lastOpenFiles": [
+    "seL4/seL4 Tutorial/1. Capabilities.md",
+    "seL4/seL4 Tutorial/2. Untyped.md",
+    "image/Pasted-image-20221206112349.png",
     "a.md",
-    "seL4/seL4 Tutorial/Capabilities.md",
     "seL4/seL4学习笔记——序.md",
     "seL4/Untitled.md",
     "rCore-N/共享调度器性能测试（1）.md",
     "rCore-N/异步协程的内核唤醒机制.md",
     "rCore-N/用户态定时器实验报告.md",
-    "rCore-N/rCore N的多核线程支持.md",
-    "rCore-N/用户态中断适配点.md",
-    "rCore-comp2022-实验报告/Lab5.md"
+    "rCore-N/rCore N的多核线程支持.md"
   ]
 }
