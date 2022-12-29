@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8788c413837aeb05",
+        "id": "41f15c3b5fbe9ec3",
         "type": "tabs",
         "children": [
           {
-            "id": "7157ea9e239310ff",
+            "id": "5680e42430263b6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -204,17 +204,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7157ea9e239310ff",
+  "active": "5680e42430263b6d",
   "lastOpenFiles": [
+    "rCore-N/共享调度器性能测试（1）.md",
+    "image/Pasted-image-20221230052306.png",
+    "rCore-N/共享调度器性能测试（2）.md",
     "rCore-N/rCore N的多核线程支持.md",
     "image/Pasted-image-20221230050659.png",
-    "rCore-N/共享调度器性能测试（2）.md",
     "image/Pasted-image-20221230045519.png",
     "seL4/seL4 Tutorial/4. Threads.md",
     "rCore-Tutorial代码走读/ch7 进程间通信和IO重定向.md",
     "seL4/seL4 Tutorial/3. Mapping.md",
-    "seL4/seL4 Tutorial/2. Untyped.md",
-    "seL4/seL4 Tutorial/1. Capabilities.md",
-    "Rust/Rust异步/Rust异步.md"
+    "seL4/seL4 Tutorial/2. Untyped.md"
   ]
 }
