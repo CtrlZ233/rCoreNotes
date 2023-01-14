@@ -59,11 +59,14 @@ XMODIFIERS    DEFAULT=@im=fcitx
 ### 系统登陆后默认启动fcitx5输入法
 将下面的内容粘贴到 `~/.xprofile`（没有就新建）
 ```
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
 fcitx5 &
 ```
 
 ### 配置主题
-使用`fcitx5-material-color`这个主题,可以参照: (https://github.com/hosxy/Fcitx5-Material-Color)[https://github.com/hosxy/Fcitx5-Material-Color](https://github.com/hosxy/Fcitx5-Material-Color)
+使用`fcitx5-material-color`这个主题,可以参照: [Fcitx5-Material-Color](https://github.com/hosxy/Fcitx5-Material-Color)
 
 # 软件安装
 ## Clion安装
