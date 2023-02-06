@@ -84,18 +84,22 @@ mkdir ~/.trash
 配置 `bashrc`或者`zshrc`
 ```shell
 alias rm=trash
-alias r=trash
-alias rl='ls ~/.trash/'
-alias ur=recoverfile
+alias rls='mkdir -p /tmp/`date +%F`; ls /tmp/`date +%F`'
+alias unrm=undelfile
 
-recoverfile()
+undelfile()  
 {
-    mv -i ~/.trash/$@ ./
+  mv -i /tmp/`date +%F`/$@ ./
 }
-
-trash()
+trash()  
 {
-    mv $@ ~/.trash
+  mkdir -p /tmp/`date +%F`
+  mv $@ /tmp/`date +%F`/
+}
+fl()  
+{
+    read -p "Clear trash?[n]" confirm
+    [ $confirm == 'y' ] || [ $confirm == 'Y' ]  && /usr/bin/rm -rf /tmp/`date +%F`/*
 }
 ```
 
