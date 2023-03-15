@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（5）.md",
+                "file": "rCore-N/共享调度器性能测试（2）.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（5）.md",
+                "file": "rCore-N/共享调度器性能测试（2）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（5）.md",
+                "file": "rCore-N/共享调度器性能测试（2）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +195,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（5）.md",
+                "file": "rCore-N/共享调度器性能测试（2）.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -238,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（5）.md"
+                "file": "rCore-N/共享调度器性能测试（2）.md"
               }
             }
           }
@@ -251,19 +251,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:新建白板": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "44da91360c1a4e97",
   "lastOpenFiles": [
+    "rCore-N/共享调度器性能测试（5）.md",
     "image/Pasted-image-20230306194042.png",
     "image/Pasted-image-20230306194020.png",
-    "rCore-N/共享调度器性能测试（5）.md",
     "image/Pasted-image-20230306193702.png",
     "rCore-N/用户态中断处理例程优先级讨论.md",
     "rCore-N/用户态定时器实验报告.md",
