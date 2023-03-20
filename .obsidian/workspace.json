@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（2）.md",
+                "file": "rCore-N/共享调度器性能测试（5）.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（2）.md",
+                "file": "rCore-N/共享调度器性能测试（5）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（2）.md",
+                "file": "rCore-N/共享调度器性能测试（5）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +195,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（2）.md",
+                "file": "rCore-N/共享调度器性能测试（5）.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -238,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（2）.md"
+                "file": "rCore-N/共享调度器性能测试（5）.md"
               }
             }
           }
@@ -251,17 +251,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
     }
   },
   "active": "44da91360c1a4e97",
   "lastOpenFiles": [
+    "论文笔记/Kernel Design for Isolation and Assurance of Physical Memory.md",
+    "seL4/seL4 Tutorial/7. Interrupts.md",
+    "seL4/seL4 Tutorial/6. Notifications.md",
+    "seL4/seL4 Tutorial/5. IPC.md",
+    "seL4/seL4 Tutorial/4. Threads.md",
+    "seL4/seL4 Tutorial/3. Mapping.md",
+    "seL4/seL4 Tutorial/2. Untyped.md",
+    "seL4/seL4 Tutorial/1. Capabilities.md",
+    "seL4/seL4 Tutorial/1. Capabilities 1.md",
+    "seL4/seL4学习笔记——序.md",
+    "manjaro/manjaro kde 配置.md",
     "rCore-N/共享调度器性能测试（5）.md",
+    "rCore-N/共享调度器性能测试（2）.md",
     "image/Pasted-image-20230306194042.png",
     "image/Pasted-image-20230306194020.png",
     "image/Pasted-image-20230306193702.png",
@@ -270,7 +282,6 @@
     "image/Pasted-image-20230306193532.png",
     "image/Pasted-image-20230304155349.png",
     "image/Pasted-image-20230301115105.png",
-    "论文笔记/Kernel Design for Isolation and Assurance of Physical Memory.md",
     "论文笔记/Toward Real Microkernels.md",
     "论文笔记/The UNIX Time-Sharing System.md",
     "论文笔记/The Performance of μ-Kernel-Based Systems.md",
@@ -280,9 +291,7 @@
     "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
     "rCore-N/共享调度器性能测试（4）.md",
     "rCore-N/共享调度器性能测试（3）.md",
-    "rCore-N/共享调度器性能测试（2）.md",
     "rCore-N/共享调度器性能测试（1）.md",
-    "seL4/seL4 Tutorial/1. Capabilities.md",
     "image/Pasted-image-20230222212250.png",
     "image/Pasted-image-20230222213038.png",
     "rCore-N/异步协程的内核唤醒机制.md"
