@@ -8,136 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "070a74119a1a3cc9",
+            "id": "cc58d52ec85443b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文笔记/Toward Real Microkernels.md",
+                "file": "论文笔记/LXDs, Towards Isolation of Kernel Subsystems.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "35b473b7635c10a7",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.16"
-              }
-            }
-          },
-          {
-            "id": "ea07ad2aded61a00",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "image/Pasted-image-20230304155349.png"
-              }
-            }
-          },
-          {
-            "id": "f457025eecde5b9c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "image/Pasted-image-20230306194020.png"
-              }
-            }
-          },
-          {
-            "id": "44da91360c1a4e97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "论文笔记/Toward Real Microkernels.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "639bcab7c0dfea9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "论文笔记/On micro-kernel Construction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5e20f871b12ed2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "论文笔记/The Performance of μ-Kernel-Based Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05be696ce14766b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "论文笔记/Kernel Design for Isolation and Assurance of Physical Memory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7c03c9fc91521dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rCore-N/共享调度器性能测试（2）.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05d61c50c475cb20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "论文笔记/Improving IPC by kernel design.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23f0663bb2725464",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "image/Pasted-image-20221115111340.png"
-              }
-            }
-          },
-          {
-            "id": "8201a4ae047d4a25",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "image/Pasted-image-20221103125242.png"
               }
             }
           }
@@ -207,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文笔记/Toward Real Microkernels.md",
+                "file": "论文笔记/LXDs, Towards Isolation of Kernel Subsystems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "论文笔记/Toward Real Microkernels.md",
+                "file": "论文笔记/LXDs, Towards Isolation of Kernel Subsystems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,7 +140,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "论文笔记/Toward Real Microkernels.md",
+                "file": "论文笔记/LXDs, Towards Isolation of Kernel Subsystems.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -305,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文笔记/Toward Real Microkernels.md"
+                "file": "论文笔记/LXDs, Towards Isolation of Kernel Subsystems.md"
               }
             }
           }
@@ -326,8 +204,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "070a74119a1a3cc9",
+  "active": "0b42622402d20fe0",
   "lastOpenFiles": [
+    "image/LXDs_packet_trans.png",
+    "论文笔记/Toward Real Microkernels.md",
+    "论文笔记/LXDs, Towards Isolation of Kernel Subsystems.md",
+    "image/Pasted-image-20230304155349.png",
+    "image/LXDS_Arch.png",
+    "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
     "论文笔记/The UNIX Time-Sharing System.md",
     "论文笔记/Improving IPC by kernel design.md",
     "论文笔记/Kernel Design for Isolation and Assurance of Physical Memory.md",
@@ -343,7 +227,6 @@
     "image/Pasted-image-20221020101914.png",
     "论文笔记/On micro-kernel Construction.md",
     "image/Pasted-image-20221103154625.png",
-    "论文笔记/Toward Real Microkernels.md",
     "image/Pasted-image-20221103125242.png",
     "seL4/seL4 Tutorial/7. Interrupts.md",
     "seL4/seL4 Tutorial/6. Notifications.md",
@@ -356,12 +239,8 @@
     "seL4/seL4学习笔记——序.md",
     "manjaro/manjaro kde 配置.md",
     "image/Pasted-image-20230306194042.png",
-    "image/Pasted-image-20230306194020.png",
-    "image/Pasted-image-20230306193702.png",
     "rCore-N/用户态中断处理例程优先级讨论.md",
     "rCore-N/用户态定时器实验报告.md",
-    "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md",
-    "论文笔记/NrOS, Effective Replication and Sharing in an Operating System.md",
-    "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md"
+    "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md"
   ]
 }
