@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文笔记/LXDs, Towards Isolation of Kernel Subsystems.md",
+                "file": "seL4/seL4 Tutorial/6. Notifications.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文笔记/LXDs, Towards Isolation of Kernel Subsystems.md",
+                "file": "seL4/seL4 Tutorial/6. Notifications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "论文笔记/LXDs, Towards Isolation of Kernel Subsystems.md",
+                "file": "seL4/seL4 Tutorial/6. Notifications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "论文笔记/LXDs, Towards Isolation of Kernel Subsystems.md",
+                "file": "seL4/seL4 Tutorial/6. Notifications.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文笔记/LXDs, Towards Isolation of Kernel Subsystems.md"
+                "file": "seL4/seL4 Tutorial/6. Notifications.md"
               }
             }
           }
@@ -204,17 +204,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0b42622402d20fe0",
+  "active": "cc58d52ec85443b0",
   "lastOpenFiles": [
-    "image/LXDs_packet_trans.png",
+    "seL4/seL4 Tutorial/5. IPC.md",
+    "seL4/seL4 Tutorial/1. Capabilities.md",
+    "seL4/seL4 Tutorial/2. Untyped.md",
+    "rCore-N/共享调度器性能测试（1）.md",
+    "论文笔记/Improving IPC by kernel design.md",
     "论文笔记/Toward Real Microkernels.md",
+    "论文笔记/On micro-kernel Construction.md",
+    "论文笔记/The Performance of μ-Kernel-Based Systems.md",
+    "论文笔记/Kernel Design for Isolation and Assurance of Physical Memory.md",
+    "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md",
+    "论文笔记/The UNIX Time-Sharing System.md",
     "论文笔记/LXDs, Towards Isolation of Kernel Subsystems.md",
+    "image/LXDs_packet_trans.png",
     "image/Pasted-image-20230304155349.png",
     "image/LXDS_Arch.png",
     "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
-    "论文笔记/The UNIX Time-Sharing System.md",
-    "论文笔记/Improving IPC by kernel design.md",
-    "论文笔记/Kernel Design for Isolation and Assurance of Physical Memory.md",
     "image/Pasted-image-20230329211759.png",
     "rCore-N/共享调度器性能测试（5）.md",
     "rCore-N/共享调度器性能测试（4）.md",
@@ -222,25 +229,18 @@
     "rCore-N/共享调度器性能测试（3）.md",
     "image/Pasted-image-20230301115105.png",
     "image/Pasted-image-20221115105434.png",
-    "论文笔记/The Performance of μ-Kernel-Based Systems.md",
     "image/Pasted-image-20221115111340.png",
     "image/Pasted-image-20221020101914.png",
-    "论文笔记/On micro-kernel Construction.md",
     "image/Pasted-image-20221103154625.png",
     "image/Pasted-image-20221103125242.png",
     "seL4/seL4 Tutorial/7. Interrupts.md",
     "seL4/seL4 Tutorial/6. Notifications.md",
-    "seL4/seL4 Tutorial/5. IPC.md",
     "seL4/seL4 Tutorial/4. Threads.md",
     "seL4/seL4 Tutorial/3. Mapping.md",
-    "seL4/seL4 Tutorial/2. Untyped.md",
-    "seL4/seL4 Tutorial/1. Capabilities.md",
     "seL4/seL4 Tutorial/1. Capabilities 1.md",
     "seL4/seL4学习笔记——序.md",
     "manjaro/manjaro kde 配置.md",
-    "image/Pasted-image-20230306194042.png",
     "rCore-N/用户态中断处理例程优先级讨论.md",
-    "rCore-N/用户态定时器实验报告.md",
-    "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md"
+    "rCore-N/用户态定时器实验报告.md"
   ]
 }
