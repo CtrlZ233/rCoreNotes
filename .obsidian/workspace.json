@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "seL4/seL4 Tutorial/6. Notifications.md",
+                "file": "论文笔记/On micro-kernel Construction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "seL4/seL4 Tutorial/6. Notifications.md",
+                "file": "论文笔记/On micro-kernel Construction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "seL4/seL4 Tutorial/6. Notifications.md",
+                "file": "论文笔记/On micro-kernel Construction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "seL4/seL4 Tutorial/6. Notifications.md",
+                "file": "论文笔记/On micro-kernel Construction.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "seL4/seL4 Tutorial/6. Notifications.md"
+                "file": "论文笔记/On micro-kernel Construction.md"
               }
             }
           }
@@ -206,12 +206,14 @@
   },
   "active": "cc58d52ec85443b0",
   "lastOpenFiles": [
+    "seL4/ppt5395.tmp",
+    "论文笔记/Toward Real Microkernels.md",
+    "seL4/seL4 Tutorial/6. Notifications.md",
     "seL4/seL4 Tutorial/5. IPC.md",
     "seL4/seL4 Tutorial/1. Capabilities.md",
     "seL4/seL4 Tutorial/2. Untyped.md",
     "rCore-N/共享调度器性能测试（1）.md",
     "论文笔记/Improving IPC by kernel design.md",
-    "论文笔记/Toward Real Microkernels.md",
     "论文笔记/On micro-kernel Construction.md",
     "论文笔记/The Performance of μ-Kernel-Based Systems.md",
     "论文笔记/Kernel Design for Isolation and Assurance of Physical Memory.md",
@@ -234,13 +236,11 @@
     "image/Pasted-image-20221103154625.png",
     "image/Pasted-image-20221103125242.png",
     "seL4/seL4 Tutorial/7. Interrupts.md",
-    "seL4/seL4 Tutorial/6. Notifications.md",
     "seL4/seL4 Tutorial/4. Threads.md",
     "seL4/seL4 Tutorial/3. Mapping.md",
     "seL4/seL4 Tutorial/1. Capabilities 1.md",
     "seL4/seL4学习笔记——序.md",
     "manjaro/manjaro kde 配置.md",
-    "rCore-N/用户态中断处理例程优先级讨论.md",
-    "rCore-N/用户态定时器实验报告.md"
+    "rCore-N/用户态中断处理例程优先级讨论.md"
   ]
 }
