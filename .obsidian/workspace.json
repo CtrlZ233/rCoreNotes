@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（6）.md",
+                "file": "manjaro/manjaro kde 配置.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 605.5
   },
   "right": {
     "id": "0f2a5bc07ca1556d",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（6）.md",
+                "file": "manjaro/manjaro kde 配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（6）.md",
+                "file": "manjaro/manjaro kde 配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（6）.md",
+                "file": "manjaro/manjaro kde 配置.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（6）.md"
+                "file": "manjaro/manjaro kde 配置.md"
               }
             }
           }
@@ -212,11 +212,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0b42622402d20fe0",
+  "active": "7ee5794765eed389",
   "lastOpenFiles": [
-    "image/Pasted-image-20230513151833.png",
     "rCore-N/共享调度器性能测试（6）.md",
+    "Pasted-image-20230513152116 1.png",
     "image/Pasted-image-20230513152116.png",
+    "论文笔记/Snap, a Microkernel Approach to Host Networking.md",
+    "image/Pony_Express.png",
+    "image/snap_framework.png",
+    "image/Pasted-image-20230513151833.png",
     "Pasted image 20230513144530.png",
     "rCore-N/共享调度器性能测试（5）.md",
     "image/net_delay_for_coroutine.png",
@@ -239,16 +243,12 @@
     "论文笔记/The UNIX Time-Sharing System.md",
     "论文笔记/LXDs, Towards Isolation of Kernel Subsystems.md",
     "image/LXDs_packet_trans.png",
-    "image/Pasted-image-20230304155349.png",
-    "image/LXDS_Arch.png",
     "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
-    "image/Pasted-image-20230329211759.png",
     "rCore-N/共享调度器性能测试（4）.md",
     "rCore-N/共享调度器性能测试（2）.md",
     "rCore-N/共享调度器性能测试（3）.md",
     "seL4/seL4 Tutorial/7. Interrupts.md",
     "seL4/seL4 Tutorial/4. Threads.md",
-    "seL4/seL4 Tutorial/3. Mapping.md",
-    "seL4/seL4 Tutorial/1. Capabilities 1.md"
+    "seL4/seL4 Tutorial/3. Mapping.md"
   ]
 }
