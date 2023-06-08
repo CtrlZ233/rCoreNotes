@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Micro-CLK, Returning to the asynchronicity with Communication-Less Microkernel.md",
+                "file": "论文笔记/Micro-CLK, Returning to the asynchronicity with Communication-Less Microkernel.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Micro-CLK, Returning to the asynchronicity with Communication-Less Microkernel.md",
+                "file": "论文笔记/Micro-CLK, Returning to the asynchronicity with Communication-Less Microkernel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Micro-CLK, Returning to the asynchronicity with Communication-Less Microkernel.md",
+                "file": "论文笔记/Micro-CLK, Returning to the asynchronicity with Communication-Less Microkernel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Micro-CLK, Returning to the asynchronicity with Communication-Less Microkernel.md",
+                "file": "论文笔记/Micro-CLK, Returning to the asynchronicity with Communication-Less Microkernel.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -216,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Micro-CLK, Returning to the asynchronicity with Communication-Less Microkernel.md"
+                "file": "论文笔记/Micro-CLK, Returning to the asynchronicity with Communication-Less Microkernel.md"
               }
             }
           }
@@ -229,18 +229,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
     }
   },
   "active": "3740c9523e89f7a1",
   "lastOpenFiles": [
+    "image/Mirco-CLK-performace.png",
+    "image/Micro-CLK-framework.png",
+    "论文笔记/Micro-CLK, Returning to the asynchronicity with Communication-Less Microkernel.md",
     "论文笔记/Improving IPC by kernel design.md",
-    "Micro-CLK, Returning to the asynchronicity with Communication-Less Microkernel.md",
     "论文笔记/Snap, a Microkernel Approach to Host Networking.md",
     "论文笔记/LXDs, Towards Isolation of Kernel Subsystems.md",
     "论文笔记/Kernel Design for Isolation and Assurance of Physical Memory.md",
@@ -268,13 +270,11 @@
     "论文笔记/The Performance of μ-Kernel-Based Systems.md",
     "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md",
     "论文笔记/The UNIX Time-Sharing System.md",
-    "image/LXDs_packet_trans.png",
     "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
     "rCore-N/共享调度器性能测试（4）.md",
     "rCore-N/共享调度器性能测试（2）.md",
     "rCore-N/共享调度器性能测试（3）.md",
     "seL4/seL4 Tutorial/7. Interrupts.md",
-    "seL4/seL4 Tutorial/4. Threads.md",
-    "seL4/seL4 Tutorial/3. Mapping.md"
+    "seL4/seL4 Tutorial/4. Threads.md"
   ]
 }
