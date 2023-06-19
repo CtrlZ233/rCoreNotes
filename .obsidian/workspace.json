@@ -35,16 +35,14 @@
             "id": "3740c9523e89f7a1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "论文笔记/Micro-CLK, Returning to the asynchronicity with Communication-Less Microkernel.md",
-                "mode": "source",
-                "source": false
+                "file": "image/Pasted-image-20230619095924.png"
               }
             }
           },
           {
-            "id": "7448d74d510d9f81",
+            "id": "96e6a5e2656199b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -249,10 +247,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7448d74d510d9f81",
+  "active": "96e6a5e2656199b1",
   "lastOpenFiles": [
     "rCore-N/共享调度器性能测试（6）.md",
     "rCore-N/共享调度器性能测试（7）.md",
+    "image/Pasted-image-20230619100630.png",
+    "image/Pasted-image-20230619095952.png",
+    "image/Pasted-image-20230619095924.png",
+    "image/Pasted-image-20230619095547.png",
+    "image/Pasted-image-20230619095514.png",
+    "image/Pasted-image-20230619095359.png",
+    "Pasted image 20230619095322.png",
     "image/Mirco-CLK-performace.png",
     "image/Micro-CLK-framework.png",
     "论文笔记/Micro-CLK, Returning to the asynchronicity with Communication-Less Microkernel.md",
@@ -261,14 +266,7 @@
     "论文笔记/LXDs, Towards Isolation of Kernel Subsystems.md",
     "论文笔记/Kernel Design for Isolation and Assurance of Physical Memory.md",
     "Pasted-image-20230513152116 1.png",
-    "image/Pasted-image-20230513152116.png",
-    "image/Pony_Express.png",
-    "image/snap_framework.png",
-    "image/Pasted-image-20230513151833.png",
-    "Pasted image 20230513144530.png",
     "rCore-N/共享调度器性能测试（5）.md",
-    "image/net_delay_for_coroutine.png",
-    "image/net_delay_for_thread.png",
     "rCore-N/异步协程的内核唤醒机制.md",
     "rCore-N/用户态定时器实验报告.md",
     "论文笔记/On micro-kernel Construction.md",
@@ -286,7 +284,6 @@
     "rCore-N/共享调度器性能测试（4）.md",
     "rCore-N/共享调度器性能测试（2）.md",
     "rCore-N/共享调度器性能测试（3）.md",
-    "seL4/seL4 Tutorial/7. Interrupts.md",
-    "seL4/seL4 Tutorial/4. Threads.md"
+    "seL4/seL4 Tutorial/7. Interrupts.md"
   ]
 }
