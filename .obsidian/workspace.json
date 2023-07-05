@@ -8,53 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7ee5794765eed389",
+            "id": "31eaf3e890caf4bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "manjaro/manjaro kde 配置.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0f3e7c20f6fc6ad4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "论文笔记/Improving IPC by kernel design.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3740c9523e89f7a1",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "image/Pasted-image-20230619095924.png"
-              }
-            }
-          },
-          {
-            "id": "96e6a5e2656199b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rCore-N/共享调度器性能测试（7）.md",
+                "file": "论文笔记/Asynchronous IO Stack, A Low-latency Kernel IO Stack for Ultra-Low Latency SSDs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 605.5
+    "width": 396.5
   },
   "right": {
     "id": "0f2a5bc07ca1556d",
@@ -128,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（7）.md",
+                "file": "论文笔记/Asynchronous IO Stack, A Low-latency Kernel IO Stack for Ultra-Low Latency SSDs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（7）.md",
+                "file": "论文笔记/Asynchronous IO Stack, A Low-latency Kernel IO Stack for Ultra-Low Latency SSDs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +148,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（7）.md",
+                "file": "论文笔记/Asynchronous IO Stack, A Low-latency Kernel IO Stack for Ultra-Low Latency SSDs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -226,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rCore-N/共享调度器性能测试（7）.md"
+                "file": "论文笔记/Asynchronous IO Stack, A Low-latency Kernel IO Stack for Ultra-Low Latency SSDs.md"
               }
             }
           }
@@ -247,25 +212,31 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "96e6a5e2656199b1",
+  "active": "31eaf3e890caf4bb",
   "lastOpenFiles": [
+    "image/Pasted-image-20230619095924.png",
+    "论文笔记/Improving IPC by kernel design.md",
+    "manjaro/manjaro kde 配置.md",
+    "论文笔记/Asynchronous IO Stack, A Low-latency Kernel IO Stack for Ultra-Low Latency SSDs.md",
+    "image/Pasted-image-20230705162256.png",
+    "image/Pasted-image-20230705160023.png",
+    "image/Pasted-image-20230705155202.png",
     "rCore-N/共享调度器性能测试（6）.md",
     "rCore-N/共享调度器性能测试（7）.md",
+    "Rust/Rust异步/Rust异步.md",
     "image/Pasted-image-20230619100630.png",
-    "image/Pasted-image-20230619095952.png",
-    "image/Pasted-image-20230619095924.png",
-    "image/Pasted-image-20230619095547.png",
     "image/Pasted-image-20230619095514.png",
     "image/Pasted-image-20230619095359.png",
+    "image/Pasted-image-20230619095547.png",
+    "rCore-N/共享调度器性能测试（3）.md",
+    "rCore-N/共享调度器性能测试（2）.md",
+    "rCore-N/共享调度器性能测试（1）.md",
+    "image/Pasted-image-20230619095952.png",
     "Pasted image 20230619095322.png",
-    "image/Mirco-CLK-performace.png",
-    "image/Micro-CLK-framework.png",
     "论文笔记/Micro-CLK, Returning to the asynchronicity with Communication-Less Microkernel.md",
-    "论文笔记/Improving IPC by kernel design.md",
     "论文笔记/Snap, a Microkernel Approach to Host Networking.md",
     "论文笔记/LXDs, Towards Isolation of Kernel Subsystems.md",
     "论文笔记/Kernel Design for Isolation and Assurance of Physical Memory.md",
-    "Pasted-image-20230513152116 1.png",
     "rCore-N/共享调度器性能测试（5）.md",
     "rCore-N/异步协程的内核唤醒机制.md",
     "rCore-N/用户态定时器实验报告.md",
@@ -276,14 +247,8 @@
     "seL4/seL4 Tutorial/5. IPC.md",
     "seL4/seL4 Tutorial/1. Capabilities.md",
     "seL4/seL4 Tutorial/2. Untyped.md",
-    "rCore-N/共享调度器性能测试（1）.md",
     "论文笔记/The Performance of μ-Kernel-Based Systems.md",
     "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md",
-    "论文笔记/The UNIX Time-Sharing System.md",
-    "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
-    "rCore-N/共享调度器性能测试（4）.md",
-    "rCore-N/共享调度器性能测试（2）.md",
-    "rCore-N/共享调度器性能测试（3）.md",
-    "seL4/seL4 Tutorial/7. Interrupts.md"
+    "论文笔记/The UNIX Time-Sharing System.md"
   ]
 }
