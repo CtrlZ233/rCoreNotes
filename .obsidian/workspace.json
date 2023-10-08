@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "45cad9c4e6124674",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "论文笔记/ghOSt, Fast & Flexible User-Space Delegation of Linux Scheduling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文笔记/Userspace Bypass, Accelerating Syscall-intensive  Applications.md",
+                "file": "论文笔记/ghOSt, Fast & Flexible User-Space Delegation of Linux Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "论文笔记/Userspace Bypass, Accelerating Syscall-intensive  Applications.md",
+                "file": "论文笔记/ghOSt, Fast & Flexible User-Space Delegation of Linux Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +173,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "论文笔记/Userspace Bypass, Accelerating Syscall-intensive  Applications.md",
+                "file": "论文笔记/ghOSt, Fast & Flexible User-Space Delegation of Linux Scheduling.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文笔记/Userspace Bypass, Accelerating Syscall-intensive  Applications.md"
+                "file": "论文笔记/ghOSt, Fast & Flexible User-Space Delegation of Linux Scheduling.md"
               }
             }
           }
@@ -225,8 +237,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "625f900017b8fbc9",
+  "active": "0b42622402d20fe0",
   "lastOpenFiles": [
+    "image/ghOSt-mq.png",
+    "image/ghOSt_framework.png",
+    "论文笔记/ghOSt, Fast & Flexible User-Space Delegation of Linux Scheduling.md",
+    "论文笔记/Johnny Cache, the End of DRAM Cache Conflicts (in Tiered Main Memory Systems.md",
     "论文笔记/Ship your Critical Section, Not Your Data: Enabling Transparent Delegation with TCLOCKS.md",
     "论文笔记/Userspace Bypass, Accelerating Syscall-intensive  Applications.md",
     "image/UB_Framework.png",
@@ -252,7 +268,6 @@
     "Rust/Rust异步/Rust异步.md",
     "image/Pasted-image-20230619100630.png",
     "image/Pasted-image-20230619095514.png",
-    "image/Pasted-image-20230619095359.png",
     "rCore-N/共享调度器性能测试（3）.md",
     "rCore-N/共享调度器性能测试（2）.md",
     "rCore-N/共享调度器性能测试（1）.md",
@@ -260,8 +275,6 @@
     "rCore-N/共享调度器性能测试（5）.md",
     "rCore-N/异步协程的内核唤醒机制.md",
     "rCore-N/用户态定时器实验报告.md",
-    "论文笔记/On micro-kernel Construction.md",
-    "seL4/ppt5395.tmp",
-    "seL4/seL4 Tutorial/6. Notifications.md"
+    "seL4/ppt5395.tmp"
   ]
 }
