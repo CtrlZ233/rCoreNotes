@@ -237,13 +237,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b42622402d20fe0",
+  "active": "45cad9c4e6124674",
   "lastOpenFiles": [
+    "论文笔记/Asynchronous IO Stack, A Low-latency Kernel IO Stack for Ultra-Low Latency SSDs.md",
+    "rCore-comp2022-实验报告/Lab2.md",
+    "rCore-comp2022-实验报告/Lab1.md",
+    "manjaro/manjaro kde 配置.md",
+    "论文笔记/ghOSt, Fast & Flexible User-Space Delegation of Linux Scheduling.md",
+    "论文笔记/Ship your Critical Section, Not Your Data: Enabling Transparent Delegation with TCLOCKS.md",
     "image/ghOSt-mq.png",
     "image/ghOSt_framework.png",
-    "论文笔记/ghOSt, Fast & Flexible User-Space Delegation of Linux Scheduling.md",
     "论文笔记/Johnny Cache, the End of DRAM Cache Conflicts (in Tiered Main Memory Systems.md",
-    "论文笔记/Ship your Critical Section, Not Your Data: Enabling Transparent Delegation with TCLOCKS.md",
     "论文笔记/Userspace Bypass, Accelerating Syscall-intensive  Applications.md",
     "image/UB_Framework.png",
     "image/UB_Target.png",
@@ -257,9 +261,7 @@
     "论文笔记/Kernel Design for Isolation and Assurance of Physical Memory.md",
     "论文笔记/Improving IPC by kernel design.md",
     "论文笔记/ENSO：A Streaming Interface for NIC-Application Communication.md",
-    "论文笔记/Asynchronous IO Stack, A Low-latency Kernel IO Stack for Ultra-Low Latency SSDs.md",
     "image/Pasted-image-20230619095924.png",
-    "manjaro/manjaro kde 配置.md",
     "image/Pasted-image-20230705162256.png",
     "image/Pasted-image-20230705160023.png",
     "image/Pasted-image-20230705155202.png",
@@ -267,14 +269,12 @@
     "rCore-N/共享调度器性能测试（7）.md",
     "Rust/Rust异步/Rust异步.md",
     "image/Pasted-image-20230619100630.png",
-    "image/Pasted-image-20230619095514.png",
     "rCore-N/共享调度器性能测试（3）.md",
     "rCore-N/共享调度器性能测试（2）.md",
     "rCore-N/共享调度器性能测试（1）.md",
     "论文笔记/Snap, a Microkernel Approach to Host Networking.md",
     "rCore-N/共享调度器性能测试（5）.md",
     "rCore-N/异步协程的内核唤醒机制.md",
-    "rCore-N/用户态定时器实验报告.md",
     "seL4/ppt5395.tmp"
   ]
 }
