@@ -14,12 +14,35 @@
               "type": "markdown",
               "state": {
                 "file": "seL4/Notes/seL4 IPC.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e312376e6b79e46",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
+          },
+          {
+            "id": "f7652c00a7cf9b04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "论文笔记/MEMTIS, Efficient Memory Tiering with Dynamic Page Classification and Page Size Determination.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "seL4/Notes/seL4 IPC.md",
+                "file": "论文笔记/MEMTIS, Efficient Memory Tiering with Dynamic Page Classification and Page Size Determination.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "seL4/Notes/seL4 IPC.md",
+                "file": "论文笔记/MEMTIS, Efficient Memory Tiering with Dynamic Page Classification and Page Size Determination.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +171,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "seL4/Notes/seL4 IPC.md",
+                "file": "论文笔记/MEMTIS, Efficient Memory Tiering with Dynamic Page Classification and Page Size Determination.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -191,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "seL4/Notes/seL4 IPC.md"
+                "file": "论文笔记/MEMTIS, Efficient Memory Tiering with Dynamic Page Classification and Page Size Determination.md"
               }
             }
           }
@@ -212,15 +235,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9eaba5c0c8f51f9f",
+  "active": "f7652c00a7cf9b04",
   "lastOpenFiles": [
+    "论文笔记/Snap, a Microkernel Approach to Host Networking.md",
+    "论文笔记/ghOSt, Fast & Flexible User-Space Delegation of Linux Scheduling.md",
+    "论文笔记/Asynchronous IO Stack, A Low-latency Kernel IO Stack for Ultra-Low Latency SSDs.md",
+    "论文笔记/ENSO：A Streaming Interface for NIC-Application Communication.md",
+    "论文笔记/Johnny Cache, the End of DRAM Cache Conflicts (in Tiered Main Memory Systems.md",
+    "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
+    "论文笔记/NrOS, Effective Replication and Sharing in an Operating System.md",
+    "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md",
+    "论文笔记/The UNIX Time-Sharing System.md",
+    "论文笔记/Toward Real Microkernels.md",
+    "论文笔记/Userspace Bypass, Accelerating Syscall-intensive  Applications.md",
+    "论文笔记/MEMTIS, Efficient Memory Tiering with Dynamic Page Classification and Page Size Determination.md",
     "image/fast&slow_path.png",
     "seL4/doc/seL4 IPC & Notification.pdf",
     "seL4/Notes/seL4 IPC.md",
     "seL4/Notes",
     "论文笔记/Ship your Critical Section, Not Your Data: Enabling Transparent Delegation with TCLOCKS.md",
-    "论文笔记/ghOSt, Fast & Flexible User-Space Delegation of Linux Scheduling.md",
-    "论文笔记/Snap, a Microkernel Approach to Host Networking.md",
     "ghOSt, Fast & Flexible User-Space Delegation of Linux Scheduling.md",
     "seL4/构建/CMake & ninja.md",
     "seL4/构建",
@@ -236,25 +269,15 @@
     "seL4/seL4 Overview.pptx",
     "image/ghOSt_framework.png",
     "image/ghOSt-mq.png",
-    "论文笔记/Userspace Bypass, Accelerating Syscall-intensive  Applications.md",
     "image/UB_Framework.png",
     "image/UB_Target.png",
     "image/TCLocks.png",
     "论文笔记/Ship your Critical Section, Not Your Data, Enabling Transparent Delegation with TCLOCKS.md",
-    "论文笔记/Toward Real Microkernels.md",
     "论文笔记/The Performance of μ-Kernel-Based Systems.md",
-    "论文笔记/Micro-CLK, Returning to the asynchronicity with Communication-Less Microkernel.md",
-    "论文笔记/LXDs, Towards Isolation of Kernel Subsystems.md",
-    "论文笔记/LegoOS, A Disseminated, Distributed OS for Hardware Resource Disaggregation.md",
-    "论文笔记/Kernel Design for Isolation and Assurance of Physical Memory.md",
-    "论文笔记/Improving IPC by kernel design.md",
-    "论文笔记/ENSO：A Streaming Interface for NIC-Application Communication.md",
-    "论文笔记/Asynchronous IO Stack, A Low-latency Kernel IO Stack for Ultra-Low Latency SSDs.md",
     "image/Pasted-image-20230619095924.png",
     "image/Pasted-image-20230705162256.png",
     "image/Pasted-image-20230705160023.png",
     "image/Pasted-image-20230705155202.png",
-    "image/Pasted-image-20230619100630.png",
     "seL4/ppt5395.tmp"
   ]
 }
