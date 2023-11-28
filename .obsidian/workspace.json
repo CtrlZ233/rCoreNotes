@@ -235,8 +235,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f7652c00a7cf9b04",
+  "active": "0b42622402d20fe0",
   "lastOpenFiles": [
+    "image/MEMTIS_test.png",
+    "image/MEMTIS.png",
     "论文笔记/Snap, a Microkernel Approach to Host Networking.md",
     "论文笔记/ghOSt, Fast & Flexible User-Space Delegation of Linux Scheduling.md",
     "论文笔记/Asynchronous IO Stack, A Low-latency Kernel IO Stack for Ultra-Low Latency SSDs.md",
@@ -273,11 +275,9 @@
     "image/UB_Target.png",
     "image/TCLocks.png",
     "论文笔记/Ship your Critical Section, Not Your Data, Enabling Transparent Delegation with TCLOCKS.md",
-    "论文笔记/The Performance of μ-Kernel-Based Systems.md",
     "image/Pasted-image-20230619095924.png",
     "image/Pasted-image-20230705162256.png",
     "image/Pasted-image-20230705160023.png",
-    "image/Pasted-image-20230705155202.png",
     "seL4/ppt5395.tmp"
   ]
 }
