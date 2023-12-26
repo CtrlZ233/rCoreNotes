@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文笔记/MEMTIS, Efficient Memory Tiering with Dynamic Page Classification and Page Size Determination.md",
+                "file": "论文笔记/Improving Interrupt Response Time in a Verifiable Protected Microkernel.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文笔记/MEMTIS, Efficient Memory Tiering with Dynamic Page Classification and Page Size Determination.md",
+                "file": "论文笔记/Improving Interrupt Response Time in a Verifiable Protected Microkernel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "论文笔记/MEMTIS, Efficient Memory Tiering with Dynamic Page Classification and Page Size Determination.md",
+                "file": "论文笔记/Improving Interrupt Response Time in a Verifiable Protected Microkernel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "论文笔记/MEMTIS, Efficient Memory Tiering with Dynamic Page Classification and Page Size Determination.md",
+                "file": "论文笔记/Improving Interrupt Response Time in a Verifiable Protected Microkernel.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -214,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文笔记/MEMTIS, Efficient Memory Tiering with Dynamic Page Classification and Page Size Determination.md"
+                "file": "论文笔记/Improving Interrupt Response Time in a Verifiable Protected Microkernel.md"
               }
             }
           }
@@ -235,8 +235,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b42622402d20fe0",
+  "active": "f7652c00a7cf9b04",
   "lastOpenFiles": [
+    "论文笔记/Userspace Bypass, Accelerating Syscall-intensive  Applications.md",
+    "seL4/Notes/seL4 IPC.md",
     "image/MEMTIS_test.png",
     "image/MEMTIS.png",
     "论文笔记/Snap, a Microkernel Approach to Host Networking.md",
@@ -249,11 +251,9 @@
     "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md",
     "论文笔记/The UNIX Time-Sharing System.md",
     "论文笔记/Toward Real Microkernels.md",
-    "论文笔记/Userspace Bypass, Accelerating Syscall-intensive  Applications.md",
     "论文笔记/MEMTIS, Efficient Memory Tiering with Dynamic Page Classification and Page Size Determination.md",
     "image/fast&slow_path.png",
     "seL4/doc/seL4 IPC & Notification.pdf",
-    "seL4/Notes/seL4 IPC.md",
     "seL4/Notes",
     "论文笔记/Ship your Critical Section, Not Your Data: Enabling Transparent Delegation with TCLOCKS.md",
     "ghOSt, Fast & Flexible User-Space Delegation of Linux Scheduling.md",
@@ -277,7 +277,6 @@
     "论文笔记/Ship your Critical Section, Not Your Data, Enabling Transparent Delegation with TCLOCKS.md",
     "image/Pasted-image-20230619095924.png",
     "image/Pasted-image-20230705162256.png",
-    "image/Pasted-image-20230705160023.png",
     "seL4/ppt5395.tmp"
   ]
 }
