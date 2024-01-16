@@ -235,14 +235,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b42622402d20fe0",
+  "active": "f7652c00a7cf9b04",
   "lastOpenFiles": [
+    "seL4/Notes/seL4 IPC.md",
     "image/mTCP-2.png",
     "image/mTCP.png",
     "论文笔记/mTCP, A Highly Scalable User-level TCP Stack for Multicore Systems.md",
     "论文笔记/Improving Interrupt Response Time in a Verifiable Protected Microkernel.md",
     "论文笔记/Userspace Bypass, Accelerating Syscall-intensive  Applications.md",
-    "seL4/Notes/seL4 IPC.md",
     "image/MEMTIS_test.png",
     "image/MEMTIS.png",
     "论文笔记/Snap, a Microkernel Approach to Host Networking.md",
@@ -277,7 +277,6 @@
     "image/UB_Framework.png",
     "image/UB_Target.png",
     "image/TCLocks.png",
-    "image/Pasted-image-20230619095924.png",
     "seL4/ppt5395.tmp"
   ]
 }
