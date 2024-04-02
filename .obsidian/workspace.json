@@ -235,8 +235,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f7652c00a7cf9b04",
+  "active": "0b42622402d20fe0",
   "lastOpenFiles": [
+    "image/async_nwp_server.png",
     "image/Cint_OOO.png",
     "image/Cint_Barrier_Res.png",
     "image/Cint_Barrier.png",
@@ -265,7 +266,6 @@
     "论文笔记/The Multikernel, A new OS architecturefor scalable multicore systems.md",
     "论文笔记/The UNIX Time-Sharing System.md",
     "论文笔记/MEMTIS, Efficient Memory Tiering with Dynamic Page Classification and Page Size Determination.md",
-    "image/fast&slow_path.png",
     "seL4/doc/seL4 IPC & Notification.pdf",
     "seL4/Notes",
     "论文笔记/Ship your Critical Section, Not Your Data: Enabling Transparent Delegation with TCLOCKS.md",
