@@ -82,5 +82,9 @@ fastcallup是由应用定义的、在网络堆栈中调用的识别请求特征�
 
 ## 评估
 
+1. 负载变化时动态调整CPU资源：
+![](../image/qstack_test1.png)
 
+2. 混个负载下Fastcalldown避免NIC丢包和过大的尾延迟。
+![](../image/qstack_test2.png)
 
