@@ -23,48 +23,16 @@
             "id": "3e312376e6b79e46",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
-              }
-            }
-          },
-          {
-            "id": "f7652c00a7cf9b04",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "论文笔记/Optimizing Storage Performance with Calibrated Interrupts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40322deeea92b45f",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
-            }
-          },
-          {
-            "id": "4c6b8a411f9b05cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "论文笔记/netmap, a novel framework for fast packet IO.md",
+                "file": "论文笔记/QStack, Re-architecting User-space Network Stack to Optimize CPU Efficiency and Service Quality.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文笔记/netmap, a novel framework for fast packet IO.md",
+                "file": "论文笔记/QStack, Re-architecting User-space Network Stack to Optimize CPU Efficiency and Service Quality.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "论文笔记/netmap, a novel framework for fast packet IO.md",
+                "file": "论文笔记/QStack, Re-architecting User-space Network Stack to Optimize CPU Efficiency and Service Quality.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "论文笔记/netmap, a novel framework for fast packet IO.md",
+                "file": "论文笔记/QStack, Re-architecting User-space Network Stack to Optimize CPU Efficiency and Service Quality.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -236,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文笔记/netmap, a novel framework for fast packet IO.md"
+                "file": "论文笔记/QStack, Re-architecting User-space Network Stack to Optimize CPU Efficiency and Service Quality.md"
               }
             }
           }
@@ -257,8 +225,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c6b8a411f9b05cb",
+  "active": "3e312376e6b79e46",
   "lastOpenFiles": [
+    "image/qstack_fastcallup.png",
+    "论文笔记/mTCP, A Highly Scalable User-level TCP Stack for Multicore Systems.md",
+    "seL4/Notes/seL4 IPC.md",
+    "image/qstack_fastcalldown.png",
+    "论文笔记/QStack, Re-architecting User-space Network Stack to Optimize CPU Efficiency and Service Quality.md",
+    "image/QStack_sum.png",
+    "论文笔记/netmap, a novel framework for fast packet IO.md",
     "image/net_map_performance.png",
     "image/netmap_tx_performance.png",
     "image/netmap_zero_copy.png",
@@ -267,18 +242,12 @@
     "image/netmap_framework.png",
     "image/FreeBSD_sendto.png",
     "image/NIC_data_and_op.png",
-    "论文笔记/netmap, a novel framework for fast packet IO.md",
-    "image/async_nwp_server.png",
-    "image/Cint_OOO.png",
-    "image/Cint_Barrier_Res.png",
     "论文笔记/Userspace Bypass, Accelerating Syscall-intensive  Applications.md",
     "论文笔记/Optimizing Storage Performance with Calibrated Interrupts.md",
     "论文笔记/Improving Interrupt Response Time in a Verifiable Protected Microkernel.md",
     "论文笔记/On micro-kernel Construction.md",
     "论文笔记/The Performance of μ-Kernel-Based Systems.md",
     "论文笔记/Toward Real Microkernels.md",
-    "论文笔记/mTCP, A Highly Scalable User-level TCP Stack for Multicore Systems.md",
-    "seL4/Notes/seL4 IPC.md",
     "论文笔记/Snap, a Microkernel Approach to Host Networking.md",
     "论文笔记/ghOSt, Fast & Flexible User-Space Delegation of Linux Scheduling.md",
     "论文笔记/Asynchronous IO Stack, A Low-latency Kernel IO Stack for Ultra-Low Latency SSDs.md",
@@ -297,7 +266,6 @@
     "seL4/构建",
     "seL4/seL4学习笔记——序.md",
     "seL4/seL4 Tutorial/7. Interrupts.md",
-    "seL4/seL4 Tutorial/6. Notifications.md",
     "seL4/seL4 Tutorial",
     "seL4/seL4 Overview.pptx",
     "seL4/ppt5395.tmp"
