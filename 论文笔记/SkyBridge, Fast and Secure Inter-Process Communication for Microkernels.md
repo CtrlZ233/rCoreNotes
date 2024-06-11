@@ -1,0 +1,27 @@
+## 摘要
+近年来，人们对微核进行了广泛的研究几十年了。但是，进程间通信仍然是运行时开销的主要因素，细粒度隔离通常会导致过多的IPC。ipc的主要开销来自于内核的参与，包括模式切换和地址空间更改的直接成本，以及由于处理器结构的污染而产生的间接成本。
+
+本文介绍了一种为微内核同步IPC而设计和优化的新型通信设备SkyBridge。SkyBridge在通信过程中不需要kernels的参与，它允许进程直接切换到目标进程的虚拟地址空间并调用目标函数。SkyBridge保留了传统的虚拟地址空间隔离，因此可以很容易地集成到现有的微内核中。SkyBridge的关键思想是利用一个用于虚拟化的商品硬件特性（即VMFUNC）来实现高效的IPC。
+为了利用硬件特性，SkyBridge在原始微内核（Subker）下面插入了一个很小的虚拟化层（Rootkernel）。Rootkernel经过精心设计以消除大多数虚拟化开销。SkyBridge还集成了一系列技术来保证IPC的安全性。
+
+我们已经在三种流行的开源微内核（seL4）评价结果表明，天桥技术使微基准的IPC速度提高了1.49倍至19.6倍。对于实际应用程序（例如SQLite3数据库），Skybridge平均将三个微内核的吞吐量提高了81.9%、1.44倍和9.59倍。
+
+## 核心思路
+
+这篇Paper是上交一篇优化微内核的IPC性能的一篇Paper。SkyBridge的思路是利用x86处理器的一些虚拟化的功能来实现高性能的IPC，同时还能实现传统的不同的进程隔离在不同的地址空间之内。Paper中先分析了IPC的性能开销的来源，主要有这样的几个部分：
+- Mode Switch，即内核态和用户态的转变， 比如涉及到的SYSCALL, SWAPGS 和 SYSRET指令一般的开心分别是82, 26 和 75左右
+- 微内核的情况下，IPC的client和server一般在不同的地址空间之内，这样就涉及到一个地址空间的切换，这里的性能开销在开启PCID (process ID)功能的情况下在186 cycles，如果使用了一些缓解Meltdown attack攻击的方法，开心上升到372 cycles
+- 另外的一些事Software IPC logic的开销。以上的几个部分是直接的开心，另外的几个部分是间接的开心，比如flush TLB和cache带来的开销。
+
+Intel提供的VMFUNC指令可以在no-root的内核和用户模式下调用VM functions，这些由hypervisor管理，比如可以用来处理GPA和HPA之间的转化，MFUNC的性能也是比较高的，在VPID功能开启的情况下，TLB不需要flush，这样的开销甚至低于write CR3的开销，
+
+SkyBridge就是利用这个VMFUNC和EPT的功能，在执行IPC操作的时候，client执行的操作切换到servicr在的地址空间执行。SkyBridge的server提供IPC的服务的时候，server需要提供给kernel的IPC的function的地址和最大的能接受的并发请求的数量，kernel会映射trampoline-related code 和 data到server的地址空间之内，并会返回一个server ID。Client要需要向kernel主要，要提供server ID，也会映射trampoline- related code 和 data pages到client的地址空间。Kernel会为client和对应的seerver创建一个EPT。Client通过direct_server_call调用server的函数的时候，trampoline将client的状态信息保存到stack中，然后调用VMFUNC，切换EPT。切换之后，后面的地址转换就是由server的page table来完成的。之后trampoline install server的stack，完成对应的函数调用。
+
+
+## 基本设计
+
+在这样的设计下面，SkyBridge主要完成这样的几个工作，
+
+- Efficient Virtualization。Skeybridge的Kernel分为两层，一层是rootkernel，一层是subkernel。Rootkernel作为一个hypervisor的功能，这里SkyBridge将其做的就可能的简化，并且配置大部分的操作都不会触发VM Exits，即subkernel退出到rootkernel。Rootkernel管理EPT，使用1GB的page来提高性能。
+- Lightweight Virtual Address Switch。SkyBridge通过VMFUNC来完成地址空间的切换。为了在切换地址空间的时候不用修改CR3，这里重新映射client’s table page base address (CR3 value)为the HPA of server’s CR3 value in the server’s EPT。VMFUNC触发的 EPT切换会使用后面永远地址翻译的page table改变。基本的思路如下图所示。一般情况下，client和server使用各自的page tables。启动一个新的sever的时候，Subkernel记录下来这个server的server-CR3。Client注册的时候，subkernel向rootkernel请求复制 the client 和 server的两个base EPT，记为EPT-C and EPT-S。Rootkernel重新映射client- CR3到 EPT-S中的HPA of server-CR3，
+- Secure Trampoline。SkyBridge使用Trampoline来进行完成一些调用逻辑。因为client的逻辑在server的虚拟地址空间中执行，这样会带来很大的安全隐患，需要必须得是client的代码不能在server的空间中执行，调用运行的智能是server的代码。主要要处理的是client自行构造VMFUNC操作的问题。这里SKyBridge的是动态重写的技术。另外一种安全威胁时调用illegal server，比如调用没有注册的server，illegal client return主要是返回到不是原来的client。为了处理这个问题，SkyBridge准备了一个 calling-key table，在client注册的时候生成。调用的时候带上这个key，返回的时候返回这个key，必须检查这个key是否相同。在Dynamically Rewriting 方面，Paper中有比较多的描述，主要的思路是subkernel会扫描code page，发现VMFUNC的指令，使用functionally-equivalent instructions来替换。

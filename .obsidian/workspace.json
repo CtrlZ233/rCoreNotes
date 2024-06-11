@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文笔记/QStack, Re-architecting User-space Network Stack to Optimize CPU Efficiency and Service Quality.md",
+                "file": "论文笔记/SkyBridge, Fast and Secure Inter-Process Communication for Microkernels.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文笔记/QStack, Re-architecting User-space Network Stack to Optimize CPU Efficiency and Service Quality.md",
+                "file": "论文笔记/SkyBridge, Fast and Secure Inter-Process Communication for Microkernels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "论文笔记/QStack, Re-architecting User-space Network Stack to Optimize CPU Efficiency and Service Quality.md",
+                "file": "论文笔记/SkyBridge, Fast and Secure Inter-Process Communication for Microkernels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "论文笔记/QStack, Re-architecting User-space Network Stack to Optimize CPU Efficiency and Service Quality.md",
+                "file": "论文笔记/SkyBridge, Fast and Secure Inter-Process Communication for Microkernels.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文笔记/QStack, Re-architecting User-space Network Stack to Optimize CPU Efficiency and Service Quality.md"
+                "file": "论文笔记/SkyBridge, Fast and Secure Inter-Process Communication for Microkernels.md"
               }
             }
           }
@@ -227,11 +227,14 @@
   },
   "active": "3e312376e6b79e46",
   "lastOpenFiles": [
+    "论文笔记/QStack, Re-architecting User-space Network Stack to Optimize CPU Efficiency and Service Quality.md",
+    "论文笔记/SkyBridge, Fast and Secure Inter-Process Communication for Microkernels.md",
+    "image/qstack_test2.png",
+    "image/qstack_test1.png",
     "image/qstack_fastcallup.png",
     "论文笔记/mTCP, A Highly Scalable User-level TCP Stack for Multicore Systems.md",
     "seL4/Notes/seL4 IPC.md",
     "image/qstack_fastcalldown.png",
-    "论文笔记/QStack, Re-architecting User-space Network Stack to Optimize CPU Efficiency and Service Quality.md",
     "image/QStack_sum.png",
     "论文笔记/netmap, a novel framework for fast packet IO.md",
     "image/net_map_performance.png",
@@ -239,9 +242,6 @@
     "image/netmap_zero_copy.png",
     "image/netmap_api.png",
     "image/netmap_data_structure.png",
-    "image/netmap_framework.png",
-    "image/FreeBSD_sendto.png",
-    "image/NIC_data_and_op.png",
     "论文笔记/Userspace Bypass, Accelerating Syscall-intensive  Applications.md",
     "论文笔记/Optimizing Storage Performance with Calibrated Interrupts.md",
     "论文笔记/Improving Interrupt Response Time in a Verifiable Protected Microkernel.md",
