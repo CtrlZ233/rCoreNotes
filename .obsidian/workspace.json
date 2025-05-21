@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文笔记/Toward Real Microkernels.md",
+                "file": "论文笔记/DRust, Language-Guided Distributed Shared Memory with Fine Granularity, Full Transparency, and Ultra Efficiency.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Toward Real Microkernels"
+              "title": "DRust, Language-Guided Distributed Shared Memory with Fine Granularity, Full Transparency, and Ultra Efficiency"
             }
           }
         ],
@@ -103,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5
+    "width": 311.5
   },
   "right": {
     "id": "0f2a5bc07ca1556d",
@@ -229,13 +229,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文笔记/Toward Real Microkernels.md",
+                "file": "论文笔记/DRust, Language-Guided Distributed Shared Memory with Fine Granularity, Full Transparency, and Ultra Efficiency.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Toward Real Microkernels"
+              "title": "Outline of DRust, Language-Guided Distributed Shared Memory with Fine Granularity, Full Transparency, and Ultra Efficiency"
             }
           }
         ],
@@ -243,7 +243,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.73809814453125
+    "width": 328.73809814453125,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,6 +258,10 @@
   },
   "active": "3e312376e6b79e46",
   "lastOpenFiles": [
+    "image/Pasted-image-20250521150524.png",
+    "image/Pasted-image-20250521150030.png",
+    "论文笔记/Toward Real Microkernels.md",
+    "论文笔记/DRust, Language-Guided Distributed Shared Memory with Fine Granularity, Full Transparency, and Ultra Efficiency.md",
     "论文笔记/Improving Interrupt Response Time in a Verifiable Protected Microkernel.md",
     "论文笔记/Improving IPC by kernel design.md",
     "论文笔记/mTCP, A Highly Scalable User-level TCP Stack for Multicore Systems.md",
@@ -276,12 +281,10 @@
     "image/netmap_tx_performance.png",
     "image/netmap_zero_copy.png",
     "image/netmap_api.png",
-    "image/netmap_data_structure.png",
     "论文笔记/Userspace Bypass, Accelerating Syscall-intensive  Applications.md",
     "论文笔记/Optimizing Storage Performance with Calibrated Interrupts.md",
     "论文笔记/On micro-kernel Construction.md",
     "论文笔记/The Performance of μ-Kernel-Based Systems.md",
-    "论文笔记/Toward Real Microkernels.md",
     "论文笔记/Asynchronous IO Stack, A Low-latency Kernel IO Stack for Ultra-Low Latency SSDs.md",
     "论文笔记/ENSO：A Streaming Interface for NIC-Application Communication.md",
     "论文笔记/Johnny Cache, the End of DRAM Cache Conflicts (in Tiered Main Memory Systems.md",
@@ -293,8 +296,6 @@
     "seL4/doc/seL4 IPC & Notification.pdf",
     "seL4/Notes",
     "论文笔记/Ship your Critical Section, Not Your Data: Enabling Transparent Delegation with TCLOCKS.md",
-    "ghOSt, Fast & Flexible User-Space Delegation of Linux Scheduling.md",
-    "seL4/构建/CMake & ninja.md",
     "seL4/构建",
     "seL4/seL4 Tutorial",
     "seL4/seL4 Overview.pptx",
