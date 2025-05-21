@@ -16,7 +16,9 @@
                 "file": "seL4/Notes/seL4 IPC.md",
                 "mode": "preview",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "seL4 IPC"
             }
           },
           {
@@ -25,10 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "论文笔记/SkyBridge, Fast and Secure Inter-Process Communication for Microkernels.md",
+                "file": "论文笔记/Toward Real Microkernels.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Toward Real Microkernels"
             }
           }
         ],
@@ -51,8 +55,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -67,7 +74,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -75,7 +84,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -83,7 +94,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "论文笔记/SkyBridge, Fast and Secure Inter-Process Communication for Microkernels.md",
+                "file": "Rust/Rust异步/Rust异步.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Rust异步"
             }
           },
           {
@@ -123,10 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "论文笔记/SkyBridge, Fast and Secure Inter-Process Communication for Microkernels.md",
+                "file": "Rust/Rust异步/Rust异步.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Rust异步"
             }
           },
           {
@@ -137,7 +154,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -145,7 +164,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
@@ -161,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "论文笔记/SkyBridge, Fast and Secure Inter-Process Communication for Microkernels.md",
+                "file": "Rust/Rust异步/Rust异步.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -187,7 +208,9 @@
                   "scale": 1.2649632303707645,
                   "close": false
                 }
-              }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Rust异步"
             }
           },
           {
@@ -195,7 +218,9 @@
             "type": "leaf",
             "state": {
               "type": "empty",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -204,8 +229,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "论文笔记/SkyBridge, Fast and Secure Inter-Process Communication for Microkernels.md"
-              }
+                "file": "论文笔记/Toward Real Microkernels.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Toward Real Microkernels"
             }
           }
         ],
@@ -227,16 +257,21 @@
   },
   "active": "3e312376e6b79e46",
   "lastOpenFiles": [
-    "论文笔记/QStack, Re-architecting User-space Network Stack to Optimize CPU Efficiency and Service Quality.md",
+    "论文笔记/Improving Interrupt Response Time in a Verifiable Protected Microkernel.md",
+    "论文笔记/Improving IPC by kernel design.md",
+    "论文笔记/mTCP, A Highly Scalable User-level TCP Stack for Multicore Systems.md",
+    "论文笔记/netmap, a novel framework for fast packet IO.md",
+    "Rust/Rust异步/Rust异步.md",
+    "论文笔记/ghOSt, Fast & Flexible User-Space Delegation of Linux Scheduling.md",
+    "论文笔记/Snap, a Microkernel Approach to Host Networking.md",
     "论文笔记/SkyBridge, Fast and Secure Inter-Process Communication for Microkernels.md",
+    "论文笔记/QStack, Re-architecting User-space Network Stack to Optimize CPU Efficiency and Service Quality.md",
     "image/qstack_test2.png",
     "image/qstack_test1.png",
     "image/qstack_fastcallup.png",
-    "论文笔记/mTCP, A Highly Scalable User-level TCP Stack for Multicore Systems.md",
     "seL4/Notes/seL4 IPC.md",
     "image/qstack_fastcalldown.png",
     "image/QStack_sum.png",
-    "论文笔记/netmap, a novel framework for fast packet IO.md",
     "image/net_map_performance.png",
     "image/netmap_tx_performance.png",
     "image/netmap_zero_copy.png",
@@ -244,12 +279,9 @@
     "image/netmap_data_structure.png",
     "论文笔记/Userspace Bypass, Accelerating Syscall-intensive  Applications.md",
     "论文笔记/Optimizing Storage Performance with Calibrated Interrupts.md",
-    "论文笔记/Improving Interrupt Response Time in a Verifiable Protected Microkernel.md",
     "论文笔记/On micro-kernel Construction.md",
     "论文笔记/The Performance of μ-Kernel-Based Systems.md",
     "论文笔记/Toward Real Microkernels.md",
-    "论文笔记/Snap, a Microkernel Approach to Host Networking.md",
-    "论文笔记/ghOSt, Fast & Flexible User-Space Delegation of Linux Scheduling.md",
     "论文笔记/Asynchronous IO Stack, A Low-latency Kernel IO Stack for Ultra-Low Latency SSDs.md",
     "论文笔记/ENSO：A Streaming Interface for NIC-Application Communication.md",
     "论文笔记/Johnny Cache, the End of DRAM Cache Conflicts (in Tiered Main Memory Systems.md",
@@ -264,8 +296,6 @@
     "ghOSt, Fast & Flexible User-Space Delegation of Linux Scheduling.md",
     "seL4/构建/CMake & ninja.md",
     "seL4/构建",
-    "seL4/seL4学习笔记——序.md",
-    "seL4/seL4 Tutorial/7. Interrupts.md",
     "seL4/seL4 Tutorial",
     "seL4/seL4 Overview.pptx",
     "seL4/ppt5395.tmp"
